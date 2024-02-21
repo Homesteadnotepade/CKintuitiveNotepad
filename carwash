@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+    <html lang="en-us">
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+            <meta name="theme-color" content="#0000ff">
+                <title>Car Wash</title>
+            <meta name="/*description*/" content="/*description*/">
+            <link rel="stylesheet" href="css/#.css">
+        </head>
+        <script>
+
+        </script>
+    <body>
+        Name: <input type="text" id="nameInputBox">
+        Email: <input type="text" id="emailInputBox">
+        <p>Phone Number: <input type="text" id="phnumberInputBox"></p>
+        <p>The End of Date: <input type="text" id="dateInputBox"></p>
+        <p>Renew Date <input type="text" id="reDateInputBox"></p>
+
+        S+S Online dashboard blank/Not working<button type="button" onclick="snsDashBlankNotWorking()">Show Template</button>
+        <div id="outputDiv"></div>
+        S+S Mistype/30 Day<button type="button" onclick="snsMistype30day()">Show Template</button>
+        <div id="outputDiv"></div>
+        CW Cancel Request<button type="button" onclick="carWashCancelrequest()">Show Template</button>
+        <div id="outputDiv"></div>
+        <button type="button" onclick="copyToClipboard()">Copy Template</button> <!-- Added a "Copy Text" button -->
+    
+    <footer>
+
+    </footer>
+    <div>
+        <script src="scripts/snsMistype30day.js"></script>
+        <script src="scripts/snsDashBlankNotWorking.js"></script>
+        <script src="scripts/copyToClipboard.js"></script>
+        <script src="scripts/carWashCancelrequest.js"></script>
+    
+    </div>
+    </body>
+    </html>
